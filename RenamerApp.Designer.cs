@@ -35,10 +35,12 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.barraProgresso = new System.Windows.Forms.ProgressBar();
             this.btnOpenFolder = new System.Windows.Forms.Button();
+            this.txtDiretorio = new System.Windows.Forms.TextBox();
+            this.barraProgresso = new System.Windows.Forms.ProgressBar();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.chkToLowerCase = new System.Windows.Forms.CheckBox();
+            this.chkToUpperCase = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -80,20 +82,12 @@
             // groupBox1
             // 
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.chkToUpperCase);
+            this.groupBox1.Controls.Add(this.chkToLowerCase);
             this.groupBox1.Controls.Add(this.btnOpenFolder);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtDiretorio);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            // 
-            // barraProgresso
-            // 
-            resources.ApplyResources(this.barraProgresso, "barraProgresso");
-            this.barraProgresso.Name = "barraProgresso";
             // 
             // btnOpenFolder
             // 
@@ -101,6 +95,28 @@
             this.btnOpenFolder.Name = "btnOpenFolder";
             this.btnOpenFolder.UseVisualStyleBackColor = true;
             this.btnOpenFolder.Click += new System.EventHandler(this.btnOpenFolder_Click);
+            // 
+            // txtDiretorio
+            // 
+            resources.ApplyResources(this.txtDiretorio, "txtDiretorio");
+            this.txtDiretorio.Name = "txtDiretorio";
+            // 
+            // barraProgresso
+            // 
+            resources.ApplyResources(this.barraProgresso, "barraProgresso");
+            this.barraProgresso.Name = "barraProgresso";
+            // 
+            // chkToLowerCase
+            // 
+            resources.ApplyResources(this.chkToLowerCase, "chkToLowerCase");
+            this.chkToLowerCase.Name = "chkToLowerCase";
+            this.chkToLowerCase.UseVisualStyleBackColor = true;
+            // 
+            // chkToUpperCase
+            // 
+            resources.ApplyResources(this.chkToUpperCase, "chkToUpperCase");
+            this.chkToUpperCase.Name = "chkToUpperCase";
+            this.chkToUpperCase.UseVisualStyleBackColor = true;
             // 
             // RenamerApp
             // 
@@ -133,10 +149,12 @@
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDiretorio;
         private System.Windows.Forms.ProgressBar barraProgresso;
         private System.Windows.Forms.Button btnOpenFolder;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
+        private System.Windows.Forms.CheckBox chkToLowerCase;
+        private System.Windows.Forms.CheckBox chkToUpperCase;
     }
 }
 

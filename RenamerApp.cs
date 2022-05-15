@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,11 +31,32 @@ namespace RenamerApp
 
         private void btnRenomear_Click(object sender, EventArgs e)
         {
-            barraProgresso.Maximum = 1000;
-            barraProgresso.Value = 0;
-            for(int i = 0; i < barraProgresso.Maximum; i++)
+            if (txtDiretorio.Text.Trim().Length > 0)
             {
-                barraProgresso.Value++;
+                string[] filePaths = Directory.GetFiles(@txtDiretorio.Text.Trim());
+                if (filePaths.Length > 0)
+                {
+                    barraProgresso.Value = 0;
+                    barraProgresso.Maximum = filePaths.Length;
+                    if (chkToUpperCase.Checked)
+                    {
+                        for (int i = 0; i < barraProgresso.Maximum; i++)
+                        {
+
+                            File.Move(filePaths[i], filePaths[i].ToUpper());
+                            barraProgresso.Value++;
+                        }
+                    }
+                    else if (chkToLowerCase.Checked)
+                    {
+                        for (int i = 0; i < barraProgresso.Maximum; i++)
+                        {
+
+                            File.Move(filePaths[i], filePaths[i].ToLower());
+                            barraProgresso.Value++;
+                        }
+                    }
+                }
             }
         }
 
@@ -45,7 +67,14 @@ namespace RenamerApp
 
         private void btnOpenFolder_Click(object sender, EventArgs e)
         {
-            folderBrowserDialog.ShowDialog();
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+            {
+                txtDiretorio.Text = folderBrowserDialog.SelectedPath;
+            }
+            else
+            {
+                txtDiretorio.Text = "";
+            }
         }
     }
 }

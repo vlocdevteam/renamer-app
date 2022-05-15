@@ -160,7 +160,7 @@
     <value>Bottom, Right</value>
   </data>
   <data name="btnFechar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>494, 160</value>
+    <value>482, 160</value>
   </data>
   <data name="btnFechar.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>160, 40</value>
@@ -193,7 +193,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="sobreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>104, 22</value>
   </data>
   <data name="sobreToolStripMenuItem.Text" xml:space="preserve">
     <value>Sobre</value>
@@ -234,22 +234,79 @@
   <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="chkToUpperCase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkToUpperCase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkToUpperCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 68</value>
+  </data>
+  <data name="chkToUpperCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 17</value>
+  </data>
+  <data name="chkToUpperCase.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkToUpperCase.Text" xml:space="preserve">
+    <value>Renomear todos os arquivos para letras maiúsculas (incluindo as extensões)</value>
+  </data>
+  <data name="&gt;&gt;chkToUpperCase.Name" xml:space="preserve">
+    <value>chkToUpperCase</value>
+  </data>
+  <data name="&gt;&gt;chkToUpperCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkToUpperCase.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chkToUpperCase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkToLowerCase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkToLowerCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 45</value>
+  </data>
+  <data name="chkToLowerCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 17</value>
+  </data>
+  <data name="chkToLowerCase.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkToLowerCase.Text" xml:space="preserve">
+    <value>Renomear todos os arquivos para letras minúsculas (incluindo as extensões)</value>
+  </data>
+  <data name="&gt;&gt;chkToLowerCase.Name" xml:space="preserve">
+    <value>chkToLowerCase</value>
+  </data>
+  <data name="&gt;&gt;chkToLowerCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkToLowerCase.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chkToLowerCase.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btnOpenFolder.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAHgSURBVFhH7ZXfK0NhHMb3T/h7XDJG5MKNlNxIFLe7kZSYbayUpREKN2Plx3bld9hhtU2bsk12
-        sSnRCGHFvjxrJ9b7yth695bzqedqPTuf7fT01WloyEDV0CEVGsOIYsnVxIEHu2OZH7MUTlPzuP+x1qxY
-        c1UxFCqIlEXyN4KIKqm+9lImp5QPPuCJiI4mWGz+ryBG0z0fyT6glNEPe1NFC9q2r6lpzEcDK+d0dvNK
-        F3eZksQTvv343mM/I+gMpbm/5ru02gO0eXbPfUgxmd67pHqLMsUITuynqGsuzC2JTL8r+lQ97O1kBAfW
-        E2Ryx7klkWl3BG/1poNKRrBnMUoLyhW3JDJ1ZuVZP7hbwQi22IO0E3vglkQlkEyTwaw8ZOWAKrgWecMH
-        FCnhGv8ST+jLgoEqOOt7zK6SVxKZ7IKtiiOn9ylo2bgiozPKLYlM3oKBKmh0xWliK8EtiUzegoEq2DFz
-        SqsnKW5JZPIWDFTBJpuP/MkXbklUmAUDCOLENY4ec0siwywYQFCWE8csGEBQlhPHLBhAsFeSE8csGEBQ
-        hhOHMAsGEJThxHEXDCAow4njLhhAUIYTx10wqDF5pThxfctRYhYMGqxHUpy4tskAMQsG+AfxmmUIs2AN
-        jbKi070DcyJXslBBm4sAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAeBJREFUWEft
+        ld8rQ2EcxvdP+HtcMkbkwo2U3EgUt7uRlJhtrJSlEQo3Y+XHduV32GG1TZuyTXaxKdEIYcW+PGsn1vvK
+        2Hr3lvOp52o9O5/t9PTVaWjIQNXQIRUaw4hiydXEgQe7Y5kfsxROU/O4/7HWrFhzVTEUKoiURfI3gogq
+        qb72UianlA8+4ImIjiZYbP6vIEbTPR/JPqCU0Q97U0UL2ravqWnMRwMr53R280oXd5mSxBO+/fjeYz8j
+        6Aylub/mu7TaA7R5ds99SDGZ3rukeosyxQhO7Keoay7MLYlMvyv6VD3s7WQEB9YTZHLHuSWRaXcEb/Wm
+        g0pGsGcxSgvKFbckMnVm5Vk/uFvBCLbYg7QTe+CWRCWQTJPBrDxk5YAquBZ5wwcUKeEa/xJP6MuCgSo4
+        63vMrpJXEpnsgq2KI6f3KWjZuCKjM8otiUzegoEqaHTFaWIrwS2JTN6CgSrYMXNKqycpbklk8hYMVMEm
+        m4/8yRduSVSYBQMI4sQ1jh5zSyLDLBhAUJYTxywYQFCWE8csGECwV5ITxywYQFCGE4cwCwYQlOHEcRcM
+        ICjDieMuGEBQhhPHXTCoMXmlOHF9y1FiFgwarEdSnLi2yQAxCwb4B/GaZQizYA2NsqLTvQNzIleyUEGb
+        iwAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="btnOpenFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>506, 16</value>
+    <value>574, 19</value>
   </data>
   <data name="btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 50</value>
@@ -267,37 +324,37 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnOpenFolder.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
-  <data name="textBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="txtDiretorio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtDiretorio.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>444, 20</value>
+  <data name="txtDiretorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>562, 20</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtDiretorio.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;txtDiretorio.Name" xml:space="preserve">
+    <value>txtDiretorio</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtDiretorio.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtDiretorio.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;txtDiretorio.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 37</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 85</value>
+    <value>630, 104</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
